@@ -62,3 +62,10 @@ for v in myNums:
 
 # 집합연산 (교집합, 차입합)
 print("---- 집합연산 (교집합, 차입합) -----")
+m = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+n = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20}
+
+print('합집합: ', m.union(n))
+print('교집합: ', m.intersection(n))
+print('차집합: ', m.difference(n))
+print('대칭차집합: ', m.symmetric_difference(n)) # 합집합 - 교집합
