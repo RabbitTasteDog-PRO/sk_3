@@ -35,7 +35,9 @@ print("문자열 " * 3)
 # len(객체): 파이썬 객체의 길이 반환 char
 print("----len()-----")
 text = "오늘 점심은 뭘먹지"
-print(len(text))
+# print("길이를 나타냅니다 : " + len(text))
+# 이렇겐 안되고 파이썬은 무조건 형변환 해야함
+print("길이를 나타냅니다 : " + str(len(text)))
 
 # srt.replace(old, new)
 # 리플레이스 기능 동일
@@ -105,13 +107,29 @@ print(f"text slicing [1:3]: {text[1:3]} ")  # el
 print(f"text slicing [1:]: {text[1:]} ")  # 시작부터 끝까지  ello World
 print(f"text slicing [:3]: {text[:3]} ")  # Hel
 print(f"text slicing [1:3:2]: {text[1:3:2]} ")  # e
-print(f"text slicing [::2]: {text[::2]} ")  # HloWrd
-print(f"text slicing [::-1]: {text[::-1]} ")  # dlroW olleH
-print(f"text slicing [::len(text)]: {text[:len(text)]} ")
+print(f"text slicing [::2]: {text[::2]} ")  # HloWrd (0,2,4,8,10) 이렇게 나옴
+print(f"text slicing [::-1]: {text[::-1]} ")  # dlroW olleH : 뒤로 나오게
+print(f"text slicing [::len(text)]: {text[: len(text)]} ")
 
 # ************************************************************************************
+# 문자열 불변타입 (immutable)
+# - 불변타입 : 메모리에 한번 저장된것은 수정할수없다
+# - 메모리상 문자열의 크기를 지정할수없다
+# - 새로운 문자열을 생성할때마다 메모리에 생성 및 만들고 이전 메모리는 삭제 한다
+print("---- 문자열 불변타입 ----")
+s = "python"  # s에는 'python' str 메모리 주소가 저장됨
+print(s)  # s에 저장된 주소를 찾아가서 'python' str을 참조
+print(f"text : {s}, 변경전 s {id(s)}")
+s = s + " hello"  # 기존 문자열의 주소는 삭제되고 새롭게 메모리 생성
+print(f"text : {s}, 변경후 s {id(s)}")
 
+# ************************************************************************************
+# in 연산자(맴버쉽 검사)
+# 특정값이 포함되어있는지 검사  : contains
+# 결과는 동일하게 bool T/F
 
-# str 메소드 (str api)
-def print_hello():
-    hello = "Hello"
+print('---- in 연산자(맴버쉽 검사) ----')
+txt = "김밥, 라면, 어묵, 떡뽁이"
+print('라면 : ' in txt + ', 돈끼스 : ' in txt)
+print(f"txt : {txt}, 김밥 포함여부 : {'김밥' in txt}")
+
