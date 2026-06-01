@@ -67,9 +67,9 @@ print(origin_str.swapcase())  # Hello World!
 # title() : 단어의 첫글자를 대문자로 변경한다. (띄어쓰기 일을경우)
 print(origin_str.title())  # Hello World!
 
-#str.format : 동일하게 사용하긴 하는데 여긴 숫자가 없네?
+# str.format : 동일하게 사용하긴 하는데 여긴 숫자가 없네?
 print("-----str.format-----")
-print("{} {} {}".format(1,2,3))
+print("{} {} {}".format(1, 2, 3))
 
 # f-string : 에프스트링이라고 파이썬은 명명하네?
 print("-----f-string-----")
@@ -77,12 +77,39 @@ print(f"{s1} {s2} // type s1 : {type(s1)} ,s2: {type(s2)}, ")
 # ************************************************************************************
 # 텍스트 인덱싱/슬라이싱
 # - 파이썬 문자열(str)은 text sequence 형태를 갖는다
+print("--- 정인덱스 ---")
+x = "Monday"
+print(f"len {len(x)} ")
+print(f"len {x[0]} ")
+print(f"len {x[1]} ")
+print(f"len {x[2]} ")
+print(f"len {x[3]} ")
+print(f"len {x[4]} ")
 
+# -1은 가장 뒤부터 문법이 왜 이따위지?
+print("--- 역 인덱스 ---")
+print(f"len {x[-1]} ")
+print(f"len {x[-2]} ")
+print(f"len {x[-3]} ")
+print(f"len {x[-4]} ")
+print(f"len {x[-5]} ")
+print(f"len {x[-6]} ")
 
-
+# 슬라이싱 : 문자열 일부를 가져오는 방법 Substring
+# str.[시작인덱스(0 + 1):종료인덱스(미포함):스텝(건너뛸 개수 , 생략 시 기본값 1)]
+print("--- str slicing ---")
+text = "Hello World"
+print(f"text 기본 : {text} ")
+print(f"text 길이: {len(text)} ")
+print(f"text slicing [1:3]: {text[1:3]} ")  # el
+print(f"text slicing [1:]: {text[1:]} ")  # 시작부터 끝까지  ello World
+print(f"text slicing [:3]: {text[:3]} ")  # Hel
+print(f"text slicing [1:3:2]: {text[1:3:2]} ")  # e
+print(f"text slicing [::2]: {text[::2]} ")  # HloWrd
+print(f"text slicing [::-1]: {text[::-1]} ")  # dlroW olleH
+print(f"text slicing [::len(text)]: {text[:len(text)]} ")
 
 # ************************************************************************************
-
 
 
 # str 메소드 (str api)
