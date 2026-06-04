@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d554bbc6-5662-4b28-9be3-1be68c168391" name="변경" comment="while문 커밋" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="30" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;RabbitTasteDog-PRO&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/RabbitTasteDog-PRO/sk_3.git&quot;,
+    &quot;accountId&quot;: &quot;badfe40f-5659-4103-bae5-e2f8dbeaab2a&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.3391336477469493" />
+      <entry key="MS500" value="2.650889571439315" />
+      <entry key="S2" value="6.245336219001176" />
+      <entry key="S5" value="11.919080563991603" />
+      <entry key="S10" value="20.176297914912624" />
+      <entry key="S30" value="36.92225398323966" />
+      <entry key="S60" value="52.08826381783658" />
+      <entry key="M2" value="74.20131749471192" />
+      <entry key="M5" value="118.68503317021347" />
+      <entry key="M10" value="174.62065291609332" />
+      <entry key="M15" value="219.80437657823478" />
+      <entry key="M30" value="335.94776579271985" />
+      <entry key="H1" value="548.5734378251278" />
+      <entry key="H2" value="950.42229750358" />
+      <entry key="H4" value="1663.7285634690315" />
+      <entry key="D1" value="3790.6640047965366" />
+      <entry key="W1" value="4568.938048156342" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="1.2879967819811202E-179" />
+      <entry key="S2" value="1.910194712053608E-45" />
+      <entry key="S5" value="1.5539136563105431E-18" />
+      <entry key="S10" value="1.855673551614875E-9" />
+      <entry key="S30" value="0.002791115380997581" />
+      <entry key="S60" value="0.12850798947289185" />
+      <entry key="M2" value="1.1497571107122222" />
+      <entry key="M5" value="5.80935904048982" />
+      <entry key="M10" value="12.093838255146576" />
+      <entry key="M15" value="16.995541483414375" />
+      <entry key="M30" value="28.934532675997733" />
+      <entry key="H1" value="48.54323711738876" />
+      <entry key="H2" value="81.70510977457764" />
+      <entry key="H4" value="133.89410382997966" />
+      <entry key="D1" value="271.8894997951042" />
+      <entry key="W1" value="319.7911202082061" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.2531889435224504" />
+      <entry key="MS500" value="2.6020608196267787" />
+      <entry key="S2" value="6.198914329308445" />
+      <entry key="S5" value="11.862493379246862" />
+      <entry key="S10" value="20.125574336445332" />
+      <entry key="S30" value="36.89419764857195" />
+      <entry key="S60" value="52.18804355544224" />
+      <entry key="M2" value="75.31121899678553" />
+      <entry key="M5" value="124.43671300276432" />
+      <entry key="M10" value="186.65539458199035" />
+      <entry key="M15" value="236.74422213527984" />
+      <entry key="M30" value="364.8343198023491" />
+      <entry key="H1" value="597.0758138156377" />
+      <entry key="H2" value="1032.0932844964018" />
+      <entry key="H4" value="1797.5955340438625" />
+      <entry key="D1" value="4062.5447413445036" />
+      <entry key="W1" value="4888.7277098302475" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3EVo0G4UCUaKKO1MG2188zmpvNI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python._01_number.executor&quot;: &quot;Run&quot;,
+    &quot;Python._02_bool.executor&quot;: &quot;Run&quot;,
+    &quot;Python._03_str.executor&quot;: &quot;Run&quot;,
+    &quot;Python._04_none.executor&quot;: &quot;Run&quot;,
+    &quot;Python._05_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python._06_tuple.executor&quot;: &quot;Run&quot;,
+    &quot;Python._07_set.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/choejiheum/SKN_AI/02.python/3day/sk_3/_03_control_flow&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_03_control_flow" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-PY-261.24374.152" />
+        <option value="bundled-python-sdk-c59985aa861c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.24374.152" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="d554bbc6-5662-4b28-9be3-1be68c168391" name="변경" comment="" />
+      <created>1780272872414</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1780272872414</updated>
+      <workItem from="1780272873497" duration="190000" />
+      <workItem from="1780275039180" duration="653000" />
+      <workItem from="1780275741387" duration="2845000" />
+      <workItem from="1780279847290" duration="10023000" />
+      <workItem from="1780293742893" duration="7511000" />
+      <workItem from="1780358181495" duration="26256000" />
+      <workItem from="1780530553271" duration="687000" />
+    </task>
+    <task id="LOCAL-00001" summary="튜플 업데이트">
+      <option name="closed" value="true" />
+      <created>1780298329414</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1780298329414</updated>
+    </task>
+    <task id="LOCAL-00002" summary="튜플 업데이트">
+      <option name="closed" value="true" />
+      <created>1780298346493</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1780298346493</updated>
+    </task>
+    <task id="LOCAL-00003" summary="튜플 업데이트">
+      <option name="closed" value="true" />
+      <created>1780359304663</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1780359304663</updated>
+    </task>
+    <task id="LOCAL-00004" summary="얕은복사">
+      <option name="closed" value="true" />
+      <created>1780362004655</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1780362004655</updated>
+    </task>
+    <task id="LOCAL-00005" summary="dictionary 얕은복사, 깊은복사">
+      <option name="closed" value="true" />
+      <created>1780366247081</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1780366247081</updated>
+    </task>
+    <task id="LOCAL-00006" summary="캐스팅">
+      <option name="closed" value="true" />
+      <created>1780366259020</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1780366259020</updated>
+    </task>
+    <task id="LOCAL-00007" summary="캐스팅">
+      <option name="closed" value="true" />
+      <created>1780367573730</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1780367573730</updated>
+    </task>
+    <task id="LOCAL-00008" summary="타입 힌트 &#10;&#10;- Python은 **동적 타이핑(dynamic typing)** 언어이다.&#10;    - 변수 선언시 : int, string, var 생략 가능">
+      <option name="closed" value="true" />
+      <created>1780367592725</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1780367592725</updated>
+    </task>
+    <task id="LOCAL-00009" summary="타입힌트">
+      <option name="closed" value="true" />
+      <created>1780369675425</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1780369675425</updated>
+    </task>
+    <task id="LOCAL-00010" summary="타입힌트">
+      <option name="closed" value="true" />
+      <created>1780369928368</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1780369928368</updated>
+    </task>
+    <task id="LOCAL-00011" summary="연산자">
+      <option name="closed" value="true" />
+      <created>1780370389177</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1780370389178</updated>
+    </task>
+    <task id="LOCAL-00012" summary="연산자">
+      <option name="closed" value="true" />
+      <created>1780377619930</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1780377619930</updated>
+    </task>
+    <task id="LOCAL-00013" summary="if문 관련">
+      <option name="closed" value="true" />
+      <created>1780377632720</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1780377632720</updated>
+    </task>
+    <task id="LOCAL-00014" summary="case문 관련">
+      <option name="closed" value="true" />
+      <created>1780377649358</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1780377649358</updated>
+    </task>
+    <task id="LOCAL-00015" summary="if문 확인">
+      <option name="closed" value="true" />
+      <created>1780377919604</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1780377919604</updated>
+    </task>
+    <task id="LOCAL-00016" summary="match case 문법">
+      <option name="closed" value="true" />
+      <created>1780382405700</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1780382405700</updated>
+    </task>
+    <task id="LOCAL-00017" summary="for문 update">
+      <option name="closed" value="true" />
+      <created>1780382768847</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1780382768848</updated>
+    </task>
+    <task id="LOCAL-00018" summary="match case 업데이트">
+      <option name="closed" value="true" />
+      <created>1780389769745</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1780389769745</updated>
+    </task>
+    <task id="LOCAL-00019" summary="for문 업데이트">
+      <option name="closed" value="true" />
+      <created>1780389778777</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1780389778777</updated>
+    </task>
+    <task id="LOCAL-00020" summary="while문 커밋">
+      <option name="closed" value="true" />
+      <created>1780389788032</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1780389788032</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="튜플 업데이트" />
+    <MESSAGE value="얕은복사" />
+    <MESSAGE value="dictionary 얕은복사, 깊은복사" />
+    <MESSAGE value="캐스팅" />
+    <MESSAGE value="타입 힌트 &#10;&#10;- Python은 **동적 타이핑(dynamic typing)** 언어이다.&#10;    - 변수 선언시 : int, string, var 생략 가능" />
+    <MESSAGE value="타입힌트" />
+    <MESSAGE value="연산자" />
+    <MESSAGE value="if문 관련" />
+    <MESSAGE value="case문 관련" />
+    <MESSAGE value="if문 확인" />
+    <MESSAGE value="match case 문법" />
+    <MESSAGE value="for문 update" />
+    <MESSAGE value="match case 업데이트" />
+    <MESSAGE value="for문 업데이트" />
+    <MESSAGE value="while문 커밋" />
+    <option name="LAST_COMMIT_MESSAGE" value="while문 커밋" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PythonProject3$_02_bool.coverage" NAME="_02_bool Coverage Results" MODIFIED="1780275777197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02_data_type" />
+    <SUITE FILE_PATH="coverage/sk_3$_07_set.coverage" NAME="_07_set Coverage Results" MODIFIED="1780299981745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02_data_type" />
+    <SUITE FILE_PATH="coverage/PythonProject3$_03_str.coverage" NAME="_03_str Coverage Results" MODIFIED="1780278370553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02_data_type" />
+    <SUITE FILE_PATH="coverage/sk_3$_06_tuple.coverage" NAME="_06_tuple Coverage Results" MODIFIED="1780298223748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02_data_type" />
+    <SUITE FILE_PATH="coverage/sk_3$_03_str.coverage" NAME="_03_str Coverage Results" MODIFIED="1780282151767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02_data_type" />
+    <SUITE FILE_PATH="coverage/sk_3$_04_none.coverage" NAME="_04_none Coverage Results" MODIFIED="1780283286075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02_data_type" />
+    <SUITE FILE_PATH="coverage/PythonProject3$_01_number.coverage" NAME="_01_number 커버리지 결과" MODIFIED="1780273051960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02_data_type" />
+    <SUITE FILE_PATH="coverage/sk_3$_05_list.coverage" NAME="_05_list Coverage Results" MODIFIED="1780295531938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02_data_type" />
+    <SUITE FILE_PATH="coverage/sk_3$main.coverage" NAME="main Coverage Results" MODIFIED="1780384784276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
