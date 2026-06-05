@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d554bbc6-5662-4b28-9be3-1be68c168391" name="변경" comment="while문 커밋" />
+    <list default="true" id="d554bbc6-5662-4b28-9be3-1be68c168391" name="변경" comment="update">
+      <change afterPath="$PROJECT_DIR$/_06_oop/01_oop/_01_oop.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="30" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -43,61 +45,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.3391336477469493" />
-      <entry key="MS500" value="2.650889571439315" />
-      <entry key="S2" value="6.245336219001176" />
-      <entry key="S5" value="11.919080563991603" />
-      <entry key="S10" value="20.176297914912624" />
-      <entry key="S30" value="36.92225398323966" />
-      <entry key="S60" value="52.08826381783658" />
-      <entry key="M2" value="74.20131749471192" />
-      <entry key="M5" value="118.68503317021347" />
-      <entry key="M10" value="174.62065291609332" />
-      <entry key="M15" value="219.80437657823478" />
-      <entry key="M30" value="335.94776579271985" />
-      <entry key="H1" value="548.5734378251278" />
-      <entry key="H2" value="950.42229750358" />
-      <entry key="H4" value="1663.7285634690315" />
-      <entry key="D1" value="3790.6640047965366" />
-      <entry key="W1" value="4568.938048156342" />
+      <entry key="MS100" value="5.610783992851274E-25" />
+      <entry key="MS500" value="1.4119025086026797E-5" />
+      <entry key="S2" value="0.06129868774928864" />
+      <entry key="S5" value="0.3273286573434834" />
+      <entry key="S10" value="0.5748456570810639" />
+      <entry key="S30" value="1.3535741105184251" />
+      <entry key="S60" value="3.7011242823467114" />
+      <entry key="M2" value="9.800258837533082" />
+      <entry key="M5" value="31.963914922098983" />
+      <entry key="M10" value="68.63509245512259" />
+      <entry key="M15" value="104.78094030989044" />
+      <entry key="M30" value="219.6141257037347" />
+      <entry key="H1" value="451.65893608117915" />
+      <entry key="H2" value="885.9563379831778" />
+      <entry key="H4" value="1716.3672790312564" />
+      <entry key="D1" value="5297.417160922001" />
+      <entry key="W1" value="7064.971542191033" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.2879967819811202E-179" />
-      <entry key="S2" value="1.910194712053608E-45" />
-      <entry key="S5" value="1.5539136563105431E-18" />
-      <entry key="S10" value="1.855673551614875E-9" />
-      <entry key="S30" value="0.002791115380997581" />
-      <entry key="S60" value="0.12850798947289185" />
-      <entry key="M2" value="1.1497571107122222" />
-      <entry key="M5" value="5.80935904048982" />
-      <entry key="M10" value="12.093838255146576" />
-      <entry key="M15" value="16.995541483414375" />
-      <entry key="M30" value="28.934532675997733" />
-      <entry key="H1" value="48.54323711738876" />
-      <entry key="H2" value="81.70510977457764" />
-      <entry key="H4" value="133.89410382997966" />
-      <entry key="D1" value="271.8894997951042" />
-      <entry key="W1" value="319.7911202082061" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.000000000000002" />
+      <entry key="S5" value="1.0000013401259313" />
+      <entry key="S10" value="1.0011577417401105" />
+      <entry key="S30" value="1.1122136002278855" />
+      <entry key="S60" value="1.449700694074695" />
+      <entry key="M2" value="2.247139797991683" />
+      <entry key="M5" value="5.220686681578246" />
+      <entry key="M10" value="10.456736394557774" />
+      <entry key="M15" value="15.263622773186917" />
+      <entry key="M30" value="27.57053341818755" />
+      <entry key="H1" value="47.534719286034736" />
+      <entry key="H2" value="82.75175338578725" />
+      <entry key="H4" value="149.79683746563802" />
+      <entry key="D1" value="415.09687294674836" />
+      <entry key="W1" value="537.6732263990293" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.2531889435224504" />
-      <entry key="MS500" value="2.6020608196267787" />
-      <entry key="S2" value="6.198914329308445" />
-      <entry key="S5" value="11.862493379246862" />
-      <entry key="S10" value="20.125574336445332" />
-      <entry key="S30" value="36.89419764857195" />
-      <entry key="S60" value="52.18804355544224" />
-      <entry key="M2" value="75.31121899678553" />
-      <entry key="M5" value="124.43671300276432" />
-      <entry key="M10" value="186.65539458199035" />
-      <entry key="M15" value="236.74422213527984" />
-      <entry key="M30" value="364.8343198023491" />
-      <entry key="H1" value="597.0758138156377" />
-      <entry key="H2" value="1032.0932844964018" />
-      <entry key="H4" value="1797.5955340438625" />
-      <entry key="D1" value="4062.5447413445036" />
-      <entry key="W1" value="4888.7277098302475" />
+      <entry key="MS100" value="2.335119956939046E-7" />
+      <entry key="MS500" value="0.04717128289979613" />
+      <entry key="S2" value="0.5022534494441286" />
+      <entry key="S5" value="1.0020405249085014" />
+      <entry key="S10" value="1.3771076188489364" />
+      <entry key="S30" value="2.3805214747498282" />
+      <entry key="S60" value="5.091028239493928" />
+      <entry key="M2" value="11.996523356424477" />
+      <entry key="M5" value="37.13705144705578" />
+      <entry key="M10" value="79.04589406047526" />
+      <entry key="M15" value="119.99831287515086" />
+      <entry key="M30" value="247.1353124566085" />
+      <entry key="H1" value="499.1447078557275" />
+      <entry key="H2" value="968.6643434909416" />
+      <entry key="H4" value="1866.126519470679" />
+      <entry key="D1" value="5712.498657062135" />
+      <entry key="W1" value="7602.6420004114025" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -112,39 +114,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python._01_number.executor&quot;: &quot;Run&quot;,
-    &quot;Python._02_bool.executor&quot;: &quot;Run&quot;,
-    &quot;Python._03_str.executor&quot;: &quot;Run&quot;,
-    &quot;Python._04_none.executor&quot;: &quot;Run&quot;,
-    &quot;Python._05_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python._06_tuple.executor&quot;: &quot;Run&quot;,
-    &quot;Python._07_set.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/choejiheum/SKN_AI/02.python/3day/sk_3/_03_control_flow&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python._01_number.executor": "Run",
+    "Python._02_bool.executor": "Run",
+    "Python._03_str.executor": "Run",
+    "Python._04_none.executor": "Run",
+    "Python._05_list.executor": "Run",
+    "Python._06_tuple.executor": "Run",
+    "Python._07_set.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/choejiheum/SKN_AI/02.python/3day/sk_3/_06_oop",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.com.jetbrains.python.highlighting.PythonColorsPage",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_05_api" />
+      <recent name="$PROJECT_DIR$/_04_funtion" />
       <recent name="$PROJECT_DIR$/_03_control_flow" />
     </key>
   </component>
@@ -169,7 +173,11 @@
       <workItem from="1780279847290" duration="10023000" />
       <workItem from="1780293742893" duration="7511000" />
       <workItem from="1780358181495" duration="26256000" />
-      <workItem from="1780530553271" duration="687000" />
+      <workItem from="1780530553271" duration="889000" />
+      <workItem from="1780532019019" duration="19151000" />
+      <workItem from="1780554743776" duration="11451000" />
+      <workItem from="1780618517143" duration="49000" />
+      <workItem from="1780618626202" duration="286000" />
     </task>
     <task id="LOCAL-00001" summary="튜플 업데이트">
       <option name="closed" value="true" />
@@ -331,7 +339,103 @@
       <option name="project" value="LOCAL" />
       <updated>1780389788032</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="while문 커밋">
+      <option name="closed" value="true" />
+      <created>1780533685520</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1780533685520</updated>
+    </task>
+    <task id="LOCAL-00022" summary="컴프리핸션 최초 커밋">
+      <option name="closed" value="true" />
+      <created>1780533700590</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1780533700590</updated>
+    </task>
+    <task id="LOCAL-00023" summary="컴프리핸션(함축,축약) 기능 업데이트">
+      <option name="closed" value="true" />
+      <created>1780539211803</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1780539211803</updated>
+    </task>
+    <task id="LOCAL-00024" summary="함수 기능들 업데이트">
+      <option name="closed" value="true" />
+      <created>1780550579129</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1780550579129</updated>
+    </task>
+    <task id="LOCAL-00025" summary="람다 시능 최초 커밋">
+      <option name="closed" value="true" />
+      <created>1780550596827</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1780550596827</updated>
+    </task>
+    <task id="LOCAL-00026" summary="컴프리핸션(함축) 업데이트">
+      <option name="closed" value="true" />
+      <created>1780554493857</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1780554493857</updated>
+    </task>
+    <task id="LOCAL-00027" summary="람다 개념 업데이트">
+      <option name="closed" value="true" />
+      <created>1780554505573</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1780554505573</updated>
+    </task>
+    <task id="LOCAL-00028" summary="파이썬에서 제공하는 기본모듈 설명">
+      <option name="closed" value="true" />
+      <created>1780558808884</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1780558808884</updated>
+    </task>
+    <task id="LOCAL-00029" summary="람다 업데이트">
+      <option name="closed" value="true" />
+      <created>1780558817449</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1780558817449</updated>
+    </task>
+    <task id="LOCAL-00030" summary="맵, 필터, 리듀스 최초 커밋">
+      <option name="closed" value="true" />
+      <created>1780558846157</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1780558846157</updated>
+    </task>
+    <task id="LOCAL-00031" summary="map, filter, reduce 업데이트">
+      <option name="closed" value="true" />
+      <created>1780562259681</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1780562259681</updated>
+    </task>
+    <task id="LOCAL-00032" summary="update">
+      <option name="closed" value="true" />
+      <created>1780618911939</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1780618911939</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,7 +453,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="튜플 업데이트" />
     <MESSAGE value="얕은복사" />
     <MESSAGE value="dictionary 얕은복사, 깊은복사" />
     <MESSAGE value="캐스팅" />
@@ -364,7 +467,18 @@
     <MESSAGE value="match case 업데이트" />
     <MESSAGE value="for문 업데이트" />
     <MESSAGE value="while문 커밋" />
-    <option name="LAST_COMMIT_MESSAGE" value="while문 커밋" />
+    <MESSAGE value="컴프리핸션 최초 커밋" />
+    <MESSAGE value="컴프리핸션(함축,축약) 기능 업데이트" />
+    <MESSAGE value="함수 기능들 업데이트" />
+    <MESSAGE value="람다 시능 최초 커밋" />
+    <MESSAGE value="컴프리핸션(함축) 업데이트" />
+    <MESSAGE value="람다 개념 업데이트" />
+    <MESSAGE value="파이썬에서 제공하는 기본모듈 설명" />
+    <MESSAGE value="람다 업데이트" />
+    <MESSAGE value="맵, 필터, 리듀스 최초 커밋" />
+    <MESSAGE value="map, filter, reduce 업데이트" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
