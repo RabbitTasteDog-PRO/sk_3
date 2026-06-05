@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d554bbc6-5662-4b28-9be3-1be68c168391" name="변경" comment="update">
-      <change afterPath="$PROJECT_DIR$/.idea/pyProjectModel.xml" afterDir="false" />
+    <list default="true" id="d554bbc6-5662-4b28-9be3-1be68c168391" name="변경" comment="숙제 Driving Application&#10;이부분부터 만들기">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_06_oop/04_polymorphism/_01_abstract_class.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/_06_oop/04_polymorphism/_01_abstract_class.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_06_oop/05_enum/_01_enum.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/_06_oop/05_enum/_01_enum.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_06_oop/01_oop/_01_oop.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/_06_oop/01_oop/_01_oop.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_06_oop/04_polymorphism/_02_has_a_is_a.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/_06_oop/04_polymorphism/_02_has_a_is_a.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="42" />
+    <option name="cachedIndexableFilesCount" value="44" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -48,61 +47,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="2.518244018791343E-22" />
-      <entry key="MS500" value="4.788734022248761E-5" />
-      <entry key="S2" value="0.08669913245757647" />
-      <entry key="S5" value="0.5551049229852344" />
-      <entry key="S10" value="1.6413711809813771" />
-      <entry key="S30" value="5.274231100640139" />
-      <entry key="S60" value="9.968774213908752" />
-      <entry key="M2" value="19.34317561400398" />
-      <entry key="M5" value="44.38716983973562" />
-      <entry key="M10" value="76.028387606117" />
-      <entry key="M15" value="105.53712105197657" />
-      <entry key="M30" value="191.9952454811616" />
-      <entry key="H1" value="360.4283242120747" />
-      <entry key="H2" value="750.4522725701044" />
-      <entry key="H4" value="1618.8903935067651" />
-      <entry key="D1" value="6247.234944554144" />
-      <entry key="W1" value="9017.459623308088" />
+      <entry key="MS100" value="2.305794260822667E-8" />
+      <entry key="MS500" value="0.06580640885446622" />
+      <entry key="S2" value="2.2093401259960914" />
+      <entry key="S5" value="5.724025766183773" />
+      <entry key="S10" value="8.99584870588833" />
+      <entry key="S30" value="13.74807496803495" />
+      <entry key="S60" value="15.812034466344969" />
+      <entry key="M2" value="19.266149747141792" />
+      <entry key="M5" value="37.09445757696972" />
+      <entry key="M10" value="68.27220881894323" />
+      <entry key="M15" value="98.20325738519249" />
+      <entry key="M30" value="185.46644160279428" />
+      <entry key="H1" value="354.6621476876401" />
+      <entry key="H2" value="743.3136575786554" />
+      <entry key="H4" value="1609.5577339003587" />
+      <entry key="D1" value="6247.536020826541" />
+      <entry key="W1" value="9031.805701407515" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000004519927" />
-      <entry key="S2" value="1.0067850373853582" />
-      <entry key="S5" value="1.2547018890289365" />
-      <entry key="S10" value="2.01106132753687" />
-      <entry key="S30" value="4.278527676176938" />
-      <entry key="S60" value="6.251705341949241" />
-      <entry key="M2" value="8.747669873747846" />
-      <entry key="M5" value="14.088100336796938" />
-      <entry key="M10" value="20.307721588824705" />
-      <entry key="M15" value="24.85847954612701" />
-      <entry key="M30" value="35.322329263274725" />
-      <entry key="H1" value="52.99182543599949" />
-      <entry key="H2" value="88.29270823177922" />
-      <entry key="H4" value="159.9494833736961" />
-      <entry key="D1" value="512.8347536960393" />
-      <entry key="W1" value="712.3096607383123" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0000000000455884" />
+      <entry key="S30" value="1.0012108879528068" />
+      <entry key="S60" value="1.1051727686711172" />
+      <entry key="M2" value="2.1346052482966567" />
+      <entry key="M5" value="7.22348142028466" />
+      <entry key="M10" value="14.497448572070322" />
+      <entry key="M15" value="19.932220276791266" />
+      <entry key="M30" value="31.825691527486555" />
+      <entry key="H1" value="50.50403817269821" />
+      <entry key="H2" value="86.33765637437477" />
+      <entry key="H4" value="158.25004499072358" />
+      <entry key="D1" value="512.382000950247" />
+      <entry key="W1" value="713.0210497163533" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="8.5606027472269E-4" />
-      <entry key="MS500" value="0.24350108580199722" />
-      <entry key="S2" value="0.723077414794022" />
-      <entry key="S5" value="1.4419954305933849" />
-      <entry key="S10" value="3.299687248619022" />
-      <entry key="S30" value="9.319972552211647" />
-      <entry key="S60" value="16.05948042114273" />
-      <entry key="M2" value="27.974215835564713" />
-      <entry key="M5" value="58.3877718860998" />
-      <entry key="M10" value="96.26704055537229" />
-      <entry key="M15" value="130.33627878577514" />
-      <entry key="M30" value="227.27192695971422" />
-      <entry key="H1" value="413.3840633851489" />
-      <entry key="H2" value="838.7131635614926" />
-      <entry key="H4" value="1778.8087587536818" />
-      <entry key="D1" value="6760.052127497792" />
-      <entry key="W1" value="9729.765810780062" />
+      <entry key="MS100" value="3.3404084458640494E-5" />
+      <entry key="MS500" value="0.1857598904192283" />
+      <entry key="S2" value="2.7749132814848516" />
+      <entry key="S5" value="6.514003442772351" />
+      <entry key="S10" value="9.882594483486482" />
+      <entry key="S30" value="14.709079759742746" />
+      <entry key="S60" value="16.89406352013851" />
+      <entry key="M2" value="21.375311551543046" />
+      <entry key="M5" value="44.27513506470228" />
+      <entry key="M10" value="82.72167138771164" />
+      <entry key="M15" value="118.08891068779295" />
+      <entry key="M30" value="217.25160223257282" />
+      <entry key="H1" value="405.1321274787697" />
+      <entry key="H2" value="829.6203879556942" />
+      <entry key="H4" value="1767.7770991107825" />
+      <entry key="D1" value="6759.900486326185" />
+      <entry key="W1" value="9744.8232771973" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -117,45 +116,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python._01_number.executor": "Run",
-    "Python._02_bool.executor": "Run",
-    "Python._03_str.executor": "Run",
-    "Python._04_none.executor": "Run",
-    "Python._05_list.executor": "Run",
-    "Python._06_tuple.executor": "Run",
-    "Python._07_set.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/choejiheum/SKN_AI/02.python/3day/sk_3/_06_oop/_05_enum",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.com.jetbrains.python.highlighting.PythonColorsPage",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python._01_number.executor&quot;: &quot;Run&quot;,
+    &quot;Python._02_bool.executor&quot;: &quot;Run&quot;,
+    &quot;Python._03_str.executor&quot;: &quot;Run&quot;,
+    &quot;Python._04_none.executor&quot;: &quot;Run&quot;,
+    &quot;Python._05_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python._06_tuple.executor&quot;: &quot;Run&quot;,
+    &quot;Python._07_set.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/choejiheum/SKN_AI/02.python/3day/sk_3/_06_oop/06_homework&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.com.jetbrains.python.highlighting.PythonColorsPage&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_06_oop/06_homework" />
       <recent name="$PROJECT_DIR$/_06_oop/_05_enum" />
       <recent name="$PROJECT_DIR$/_06_oop/01_oop/04_polymorphism" />
       <recent name="$PROJECT_DIR$/_06_oop/03_inheritance" />
       <recent name="$PROJECT_DIR$/_06_oop/02_encapsulation" />
-      <recent name="$PROJECT_DIR$/_06_oop" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_06_oop" />
@@ -190,7 +189,8 @@
       <workItem from="1780618626202" duration="8089000" />
       <workItem from="1780627511575" duration="10276000" />
       <workItem from="1780644254603" duration="2527000" />
-      <workItem from="1780647299977" duration="1376000" />
+      <workItem from="1780647299977" duration="1983000" />
+      <workItem from="1780649818100" duration="213000" />
     </task>
     <task id="LOCAL-00001" summary="튜플 업데이트">
       <option name="closed" value="true" />
@@ -512,7 +512,23 @@
       <option name="project" value="LOCAL" />
       <updated>1780646727294</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="수업내용 커밋">
+      <option name="closed" value="true" />
+      <created>1780648703791</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1780648703791</updated>
+    </task>
+    <task id="LOCAL-00042" summary="숙제 Driving Application&#10;이부분부터 만들기">
+      <option name="closed" value="true" />
+      <created>1780648723988</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1780648723988</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,8 +546,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="연산자" />
-    <MESSAGE value="if문 관련" />
     <MESSAGE value="case문 관련" />
     <MESSAGE value="if문 확인" />
     <MESSAGE value="match case 문법" />
@@ -555,7 +569,9 @@
     <MESSAGE value="파이썬은 프라이빗 개념이 없다" />
     <MESSAGE value="게터 세터 업데이트" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="수업내용 커밋" />
+    <MESSAGE value="숙제 Driving Application&#10;이부분부터 만들기" />
+    <option name="LAST_COMMIT_MESSAGE" value="숙제 Driving Application&#10;이부분부터 만들기" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
