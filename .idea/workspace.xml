@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d554bbc6-5662-4b28-9be3-1be68c168391" name="변경" comment="update">
-      <change afterPath="$PROJECT_DIR$/_06_oop/01_oop/_01_oop.ipynb" afterDir="false" />
+    <list default="true" id="d554bbc6-5662-4b28-9be3-1be68c168391" name="변경" comment="게터 세터 업데이트">
+      <change afterPath="$PROJECT_DIR$/_06_oop/04_polymorphism/_01_abstract_class.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06_oop/05_enum/_01_enum.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_06_oop/01_oop/04_polymorphism/_01_abstract_class.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_06_oop/01_oop/04_polymorphism/_02_has_a_is_a.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/_06_oop/04_polymorphism/_02_has_a_is_a.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="41" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -45,61 +49,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="5.610783992851274E-25" />
-      <entry key="MS500" value="1.4119025086026797E-5" />
-      <entry key="S2" value="0.06129868774928864" />
-      <entry key="S5" value="0.3273286573434834" />
-      <entry key="S10" value="0.5748456570810639" />
-      <entry key="S30" value="1.3535741105184251" />
-      <entry key="S60" value="3.7011242823467114" />
-      <entry key="M2" value="9.800258837533082" />
-      <entry key="M5" value="31.963914922098983" />
-      <entry key="M10" value="68.63509245512259" />
-      <entry key="M15" value="104.78094030989044" />
-      <entry key="M30" value="219.6141257037347" />
-      <entry key="H1" value="451.65893608117915" />
-      <entry key="H2" value="885.9563379831778" />
-      <entry key="H4" value="1716.3672790312564" />
-      <entry key="D1" value="5297.417160922001" />
-      <entry key="W1" value="7064.971542191033" />
-    </decayedCancelled>
-    <decayedSelected>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.000000000000002" />
-      <entry key="S5" value="1.0000013401259313" />
-      <entry key="S10" value="1.0011577417401105" />
-      <entry key="S30" value="1.1122136002278855" />
-      <entry key="S60" value="1.449700694074695" />
-      <entry key="M2" value="2.247139797991683" />
-      <entry key="M5" value="5.220686681578246" />
-      <entry key="M10" value="10.456736394557774" />
-      <entry key="M15" value="15.263622773186917" />
-      <entry key="M30" value="27.57053341818755" />
-      <entry key="H1" value="47.534719286034736" />
-      <entry key="H2" value="82.75175338578725" />
-      <entry key="H4" value="149.79683746563802" />
-      <entry key="D1" value="415.09687294674836" />
-      <entry key="W1" value="537.6732263990293" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0000000086841125" />
+      <entry key="S60" value="1.0005145994348346" />
+      <entry key="M2" value="1.160106479331563" />
+      <entry key="M5" value="8.27926389530454" />
+      <entry key="M10" value="36.543253359377886" />
+      <entry key="M15" value="68.81641701847985" />
+      <entry key="M30" value="158.3450708279939" />
+      <entry key="H1" value="327.3877186538511" />
+      <entry key="H2" value="725.2937314636298" />
+      <entry key="H4" value="1603.3029046094346" />
+      <entry key="D1" value="6194.79641046764" />
+      <entry key="W1" value="8911.375610468696" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="8.664192119285294E-13" />
+      <entry key="MS500" value="0.0038685268434883783" />
+      <entry key="S2" value="0.2493942313161136" />
+      <entry key="S5" value="0.5737920959216449" />
+      <entry key="S10" value="0.7574906573164094" />
+      <entry key="S30" value="0.9115911050783396" />
+      <entry key="S60" value="0.9615710047984384" />
+      <entry key="M2" value="1.1243741252654222" />
+      <entry key="M5" value="2.2737599867241554" />
+      <entry key="M10" value="4.921040136156238" />
+      <entry key="M15" value="7.66019565570297" />
+      <entry key="M30" value="15.788459072264526" />
+      <entry key="H1" value="32.06443365004619" />
+      <entry key="H2" value="66.88005885424658" />
+      <entry key="H4" value="138.41025808657616" />
+      <entry key="D1" value="487.22822522715563" />
+      <entry key="W1" value="682.3868432416822" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="2.335119956939046E-7" />
-      <entry key="MS500" value="0.04717128289979613" />
-      <entry key="S2" value="0.5022534494441286" />
-      <entry key="S5" value="1.0020405249085014" />
-      <entry key="S10" value="1.3771076188489364" />
-      <entry key="S30" value="2.3805214747498282" />
-      <entry key="S60" value="5.091028239493928" />
-      <entry key="M2" value="11.996523356424477" />
-      <entry key="M5" value="37.13705144705578" />
-      <entry key="M10" value="79.04589406047526" />
-      <entry key="M15" value="119.99831287515086" />
-      <entry key="M30" value="247.1353124566085" />
-      <entry key="H1" value="499.1447078557275" />
-      <entry key="H2" value="968.6643434909416" />
-      <entry key="H4" value="1866.126519470679" />
-      <entry key="D1" value="5712.498657062135" />
-      <entry key="W1" value="7602.6420004114025" />
+      <entry key="MS100" value="2.72343025805686E-8" />
+      <entry key="MS500" value="0.031945207955069756" />
+      <entry key="S2" value="0.6067140008371467" />
+      <entry key="S5" value="1.2184672121475895" />
+      <entry key="S10" value="1.5561234026680588" />
+      <entry key="S30" value="1.8382182117476797" />
+      <entry key="S60" value="1.924482265591621" />
+      <entry key="M2" value="2.2645357400575903" />
+      <entry key="M5" value="10.53689955663477" />
+      <entry key="M10" value="41.44178234381631" />
+      <entry key="M15" value="76.45140331147262" />
+      <entry key="M30" value="174.10739410588252" />
+      <entry key="H1" value="359.4268237028025" />
+      <entry key="H2" value="792.14745701142" />
+      <entry key="H4" value="1741.6847101017922" />
+      <entry key="D1" value="6682.007640775496" />
+      <entry key="W1" value="9593.759084139901" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -134,7 +138,7 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/choejiheum/SKN_AI/02.python/3day/sk_3/_06_oop",
+    "last_opened_file_path": "/Users/choejiheum/SKN_AI/02.python/3day/sk_3/_06_oop/_05_enum",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -147,9 +151,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/_05_api" />
-      <recent name="$PROJECT_DIR$/_04_funtion" />
-      <recent name="$PROJECT_DIR$/_03_control_flow" />
+      <recent name="$PROJECT_DIR$/_06_oop/_05_enum" />
+      <recent name="$PROJECT_DIR$/_06_oop/01_oop/04_polymorphism" />
+      <recent name="$PROJECT_DIR$/_06_oop/03_inheritance" />
+      <recent name="$PROJECT_DIR$/_06_oop/02_encapsulation" />
+      <recent name="$PROJECT_DIR$/_06_oop" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_06_oop" />
+      <recent name="$PROJECT_DIR$/_06_oop/01_oop" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -177,7 +187,9 @@
       <workItem from="1780532019019" duration="19151000" />
       <workItem from="1780554743776" duration="11451000" />
       <workItem from="1780618517143" duration="49000" />
-      <workItem from="1780618626202" duration="286000" />
+      <workItem from="1780618626202" duration="8089000" />
+      <workItem from="1780627511575" duration="10276000" />
+      <workItem from="1780644254603" duration="2434000" />
     </task>
     <task id="LOCAL-00001" summary="튜플 업데이트">
       <option name="closed" value="true" />
@@ -435,7 +447,63 @@
       <option name="project" value="LOCAL" />
       <updated>1780618911939</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="객채치향 OOP 개념">
+      <option name="closed" value="true" />
+      <created>1780627332769</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1780627332769</updated>
+    </task>
+    <task id="LOCAL-00034" summary="캡슐화 업데이트">
+      <option name="closed" value="true" />
+      <created>1780627431227</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1780627431227</updated>
+    </task>
+    <task id="LOCAL-00035" summary="캡슐화 업데이트">
+      <option name="closed" value="true" />
+      <created>1780630824082</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1780630824082</updated>
+    </task>
+    <task id="LOCAL-00036" summary="getter setter 개념">
+      <option name="closed" value="true" />
+      <created>1780630837199</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1780630837199</updated>
+    </task>
+    <task id="LOCAL-00037" summary="파이썬은 프라이빗 개념이 없다">
+      <option name="closed" value="true" />
+      <created>1780641228379</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1780641228379</updated>
+    </task>
+    <task id="LOCAL-00038" summary="update">
+      <option name="closed" value="true" />
+      <created>1780641276974</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1780641276974</updated>
+    </task>
+    <task id="LOCAL-00039" summary="게터 세터 업데이트">
+      <option name="closed" value="true" />
+      <created>1780641291203</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1780641291203</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,11 +521,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="얕은복사" />
-    <MESSAGE value="dictionary 얕은복사, 깊은복사" />
-    <MESSAGE value="캐스팅" />
-    <MESSAGE value="타입 힌트 &#10;&#10;- Python은 **동적 타이핑(dynamic typing)** 언어이다.&#10;    - 변수 선언시 : int, string, var 생략 가능" />
-    <MESSAGE value="타입힌트" />
     <MESSAGE value="연산자" />
     <MESSAGE value="if문 관련" />
     <MESSAGE value="case문 관련" />
@@ -477,8 +540,13 @@
     <MESSAGE value="람다 업데이트" />
     <MESSAGE value="맵, 필터, 리듀스 최초 커밋" />
     <MESSAGE value="map, filter, reduce 업데이트" />
+    <MESSAGE value="객채치향 OOP 개념" />
+    <MESSAGE value="캡슐화 업데이트" />
+    <MESSAGE value="getter setter 개념" />
+    <MESSAGE value="파이썬은 프라이빗 개념이 없다" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="게터 세터 업데이트" />
+    <option name="LAST_COMMIT_MESSAGE" value="게터 세터 업데이트" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
