@@ -1,0 +1,4 @@
+# 속도 가감
+ACELATER_SPEED = 10
+
+MAX_SPEED = 200
